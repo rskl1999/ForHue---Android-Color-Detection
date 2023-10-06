@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ForHuefirst/app/src/main/res/drawable/gradient_background.xml" value="0.1" />
+        <entry key="..\:/ForHuefirst/app/src/main/res/layout-normal/fh_settingnew.xml" value="0.16666666666666666" />
+        <entry key="..\:/ForHuefirst/app/src/main/res/layout-normal/settings.xml" value="0.22" />
+        <entry key="..\:/ForHuefirst/app/src/main/res/layout-normal/upload_camera.xml" value="0.15677083333333333" />
+        <entry key="..\:/ForHuefirst/app/src/main/res/layout/activity_camera.xml" value="0.175" />
+        <entry key="..\:/ForHuefirst/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/ForHuefirst/app/src/main/res/layout/camera_live.xml" value="0.3333333333333333" />
+        <entry key="..\:/ForHuefirst/app/src/main/res/layout/fh_setting.xml" value="0.175" />
+        <entry key="..\:/ForHuefirst/app/src/main/res/layout/fh_setting2.xml" value="0.16666666666666666" />
+        <entry key="..\:/ForHuefirst/app/src/main/res/layout/fh_setting3.xml" value="0.22" />
+        <entry key="..\:/ForHuefirst/app/src/main/res/layout/fh_settingdraft.xml" value="0.11302083333333333" />
+        <entry key="..\:/ForHuefirst/app/src/main/res/layout/home.xml" value="0.16666666666666666" />
+        <entry key="..\:/ForHuefirst/app/src/main/res/layout/language1.xml" value="0.175" />
+        <entry key="..\:/ForHuefirst/app/src/main/res/layout/language2.xml" value="0.15677083333333333" />
+        <entry key="..\:/ForHuefirst/app/src/main/res/layout/upload_camera.xml" value="0.15677083333333333" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHueApp/app/src/main/res/drawable/gradient_background.xml" value="0.188" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHueApp/app/src/main/res/layout/activity_camera.xml" value="0.1" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHueApp/app/src/main/res/layout/activity_language1.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHueApp/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHueApp/app/src/main/res/layout/language1.xml" value="0.22" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHueApp/app/src/main/res/layout/language2.xml" value="0.1796875" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHueApp/app/src/main/res/layout/layout.xml" value="0.1" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHueApp/app/src/main/res/layout/sample_my_view.xml" value="0.1" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHuefirst/app/src/main/res/drawable/ic_baseline_tonality_24.xml" value="0.148" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHuefirst/app/src/main/res/layout-large/fh_setting.xml" value="0.133984375" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHuefirst/app/src/main/res/layout-normal/fh_setting.xml" value="0.17864583333333334" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHuefirst/app/src/main/res/layout-small/fh_setting.xml" value="0.5" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHuefirst/app/src/main/res/layout-small/fh_setting2.xml" value="0.175" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHuefirst/app/src/main/res/layout-v23/fh_setting.xml" value="0.1796875" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHuefirst/app/src/main/res/layout/activity_camera.xml" value="0.1796875" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHuefirst/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHuefirst/app/src/main/res/layout/camera_live.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHuefirst/app/src/main/res/layout/capture_camera.xml" value="0.1796875" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHuefirst/app/src/main/res/layout/fh_setting.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHuefirst/app/src/main/res/layout/fh_setting2.xml" value="0.22" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHuefirst/app/src/main/res/layout/fh_settingdraft.xml" value="0.175" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHuefirst/app/src/main/res/layout/home.xml" value="0.1796875" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHuefirst/app/src/main/res/layout/language1.xml" value="0.1796875" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHuefirst/app/src/main/res/layout/language2.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHuefirst/app/src/main/res/layout/upload_camera.xml" value="0.22" />
+        <entry key="..\:/Users/Teacher/AndroidStudioProjects/ForHuefirst/app/src/main/res/xml/file_paths.xml" value="0.17447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

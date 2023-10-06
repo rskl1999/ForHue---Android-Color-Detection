@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.krokyze:ucropnedit:2.2.8@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4314a334e4fcf7df1d7b13cad6715de3/transformed/ucropnedit-2.2.8/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4314a334e4fcf7df1d7b13cad6715de3/transformed/ucropnedit-2.2.8/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/4314a334e4fcf7df1d7b13cad6715de3/transformed/ucropnedit-2.2.8/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/4314a334e4fcf7df1d7b13cad6715de3/transformed/ucropnedit-2.2.8/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.krokyze/ucropnedit/2.2.8/ca98178631542977598261af29e2135a58ea9cf/ucropnedit-2.2.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

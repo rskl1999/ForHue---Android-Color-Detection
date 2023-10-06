@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ForHue_-_App.iml" filepath="$PROJECT_DIR$/.idea/modules/ForHue_-_App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OpenCV/ForHue_-_App.OpenCV.iml" filepath="$PROJECT_DIR$/.idea/modules/OpenCV/ForHue_-_App.OpenCV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OpenCV/ForHue_-_App.OpenCV.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/OpenCV/ForHue_-_App.OpenCV.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OpenCV/ForHue_-_App.OpenCV.main.iml" filepath="$PROJECT_DIR$/.idea/modules/OpenCV/ForHue_-_App.OpenCV.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/OpenCV/ForHue_-_App.OpenCV.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/OpenCV/ForHue_-_App.OpenCV.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ForHue_-_App.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ForHue_-_App.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ForHue_-_App.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ForHue_-_App.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ForHue_-_App.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ForHue_-_App.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/ForHue_-_App.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/ForHue_-_App.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mylibrary/ForHue_-_App.mylibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/mylibrary/ForHue_-_App.mylibrary.iml" />
+    </modules>
+  </component>
+</project>
