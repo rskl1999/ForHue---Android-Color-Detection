@@ -1,0 +1,1 @@
+C:\Users\Teacher\AndroidStudioProjects\ForHuefirst\OpenCV\libcxx_helper\CMakeLists.txt
