@@ -1,0 +1,3 @@
+C:/ForHuefirst/OpenCV/.cxx/Debug/6p3r6p72/x86/CMakeFiles/opencv_jni_shared.dir
+C:/ForHuefirst/OpenCV/.cxx/Debug/6p3r6p72/x86/CMakeFiles/edit_cache.dir
+C:/ForHuefirst/OpenCV/.cxx/Debug/6p3r6p72/x86/CMakeFiles/rebuild_cache.dir
