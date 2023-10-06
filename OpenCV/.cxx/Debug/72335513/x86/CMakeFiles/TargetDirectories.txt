@@ -1,0 +1,3 @@
+C:/Users/Teacher/AndroidStudioProjects/ForHueApp/OpenCV/.cxx/Debug/72335513/x86/CMakeFiles/opencv_jni_shared.dir
+C:/Users/Teacher/AndroidStudioProjects/ForHueApp/OpenCV/.cxx/Debug/72335513/x86/CMakeFiles/edit_cache.dir
+C:/Users/Teacher/AndroidStudioProjects/ForHueApp/OpenCV/.cxx/Debug/72335513/x86/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,7 @@
+Executable : C:\Users\Teacher\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+C:\Users\Teacher\AndroidStudioProjects\ForHueApp\OpenCV\.cxx\Debug\72335513\arm64-v8a
+opencv_jni_shared
+jvmArgs : 
+
