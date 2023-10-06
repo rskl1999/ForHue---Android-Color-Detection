@@ -1,0 +1,3 @@
+D:/ForHuefirst/OpenCV/.cxx/RelWithDebInfo/4r1p371p/armeabi-v7a/CMakeFiles/opencv_jni_shared.dir
+D:/ForHuefirst/OpenCV/.cxx/RelWithDebInfo/4r1p371p/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/ForHuefirst/OpenCV/.cxx/RelWithDebInfo/4r1p371p/armeabi-v7a/CMakeFiles/rebuild_cache.dir
