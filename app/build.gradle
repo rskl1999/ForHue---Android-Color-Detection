@@ -1,0 +1,65 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.forhue_app"
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    sourceSets {
+        main {
+            jni {
+             //   srcDirs 'src\\main\\jni', 'src\\main\\jnilibs'
+            }
+        }
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'com.google.android.material:material:1.7.0'
+
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation project(path: ':OpenCV')
+    //implementation files('libs/weka.jar')
+    //compile files('libs/weka.jar')
+   // implementation files('libs/java.jar')
+   // implementation files('libs/marvin (1).jar')
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.5.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
+    implementation files('libs/weka3-9-6.jar')
+
+    testImplementation 'junit:junit:4.13.2'
+   // implementation 'com.github.Abhi347:NoobCameraFlash:0.0.1' //flash
+    implementation 'com.github.krokyze:ucropnedit:2.2.8' //for cropping
+   // implementation 'com.github.yalantis:ucrop:2.2.6'  //for cropping
+    androidTestImplementation 'androidx.test.ext:junit:1.1.4'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.0'
+    //material design:
+    //implementation 'com.google.android.material:material:1.2.0-alpha02'
+    //Rounded image view:
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+}
