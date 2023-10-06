@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\ForHuefirst\OpenCV\.cxx\Debug\2wr36304\x86'
+ninja: no work to do.
