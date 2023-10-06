@@ -1,0 +1,7 @@
+@relation 'Testing Data'
+
+@attribute Hex string
+@attribute 'Color Name' string
+
+@data
+#f4c2c2,A
