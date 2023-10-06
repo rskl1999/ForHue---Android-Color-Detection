@@ -1,0 +1,1 @@
+C:\Users\Teacher\AndroidStudioProjects\ForHuefirst\OpenCV\build\intermediates\cxx\Debug\5x5b222o\obj\arm64-v8a
