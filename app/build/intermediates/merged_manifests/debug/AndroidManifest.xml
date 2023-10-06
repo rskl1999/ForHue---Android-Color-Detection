@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.forhue_app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="33" />
+    <!-- access camera -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front.autofocus"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:configChanges="locale"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:debuggable="true"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name="com.example.forhue_app.Camera2"
+            android:exported="true" />
+        <activity
+            android:name="com.example.forhue_app.TTS"
+            android:exported="true" />
+        <activity
+            android:name="com.example.forhue_app.CropperActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.forhue_app.brightness"
+            android:exported="true" />
+        <activity
+            android:name="com.example.forhue_app.Settings"
+            android:exported="true" />
+        <activity
+            android:name="com.example.forhue_app.Home"
+            android:exported="true" />
+        <activity
+            android:name="com.example.forhue_app.Home2"
+            android:exported="true" />
+        <activity
+            android:name="com.example.forhue_app.Camera_AR"
+            android:exported="true" />
+        <activity
+            android:name="com.example.forhue_app.Camera_HI"
+            android:exported="true" />
+        <activity
+            android:name="com.example.forhue_app.Camera_PT"
+            android:exported="true" />
+        <activity
+            android:name="com.example.forhue_app.Camera_TL"
+            android:exported="true" />
+        <activity
+            android:name="com.example.forhue_app.Camera_ZH"
+            android:exported="true" />
+        <activity
+            android:name="com.example.forhue_app.Module"
+            android:exported="true" />
+        <activity
+            android:name="com.example.forhue_app.Module2"
+            android:exported="true" />
+        <activity
+            android:name="com.example.forhue_app.CameraUpload"
+            android:exported="true" />
+        <activity
+            android:name="com.example.forhue_app.language"
+            android:exported="true" />
+        <activity
+            android:name="com.example.forhue_app.language_settings"
+            android:exported="true" />
+        <activity
+            android:name="com.example.forhue_app.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.forhue_app"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.example.forhue_app.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+    </application>
+
+</manifest>

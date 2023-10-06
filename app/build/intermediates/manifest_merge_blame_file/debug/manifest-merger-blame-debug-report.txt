@@ -1,0 +1,253 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.forhue_app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\ForHuefirst\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\ForHuefirst\app\src\main\AndroidManifest.xml
+10    <!-- access camera -->
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:6:5-65
+11-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:6:22-62
+12
+13    <uses-feature
+13-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:8:4-10:35
+14        android:name="android.hardware.camera"
+14-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:9:9-47
+15        android:required="true" />
+15-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:10:9-32
+16    <uses-feature
+16-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:12:5-14:36
+17        android:name="android.hardware.camera.autofocus"
+17-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:13:9-57
+18        android:required="false" />
+18-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:14:9-33
+19    <uses-feature
+19-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:15:5-17:36
+20        android:name="android.hardware.camera.front"
+20-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:16:9-53
+21        android:required="false" />
+21-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:17:9-33
+22    <uses-feature
+22-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:18:5-20:36
+23        android:name="android.hardware.camera.front.autofocus"
+23-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:19:9-63
+24        android:required="false" />
+24-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:20:9-33
+25
+26    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:22:5-80
+26-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:22:22-77
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:23:5-24:40
+27-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:23:22-78
+28    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+28-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:25:5-27:47
+28-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:26:9-57
+29
+30    <application
+30-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:29:5-118:19
+31        android:allowBackup="true"
+31-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:30:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.8.0] C:\Users\Huawei\.gradle\caches\transforms-3\87a796fe63836d99a2198ac6a6284cb3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+33        android:configChanges="locale"
+33-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:31:9-39
+34        android:dataExtractionRules="@xml/data_extraction_rules"
+34-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:32:9-65
+35        android:debuggable="true"
+36        android:fullBackupContent="@xml/backup_rules"
+36-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:33:9-54
+37        android:icon="@mipmap/ic_launcher"
+37-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:34:9-43
+38        android:label="@string/app_name"
+38-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:35:9-41
+39        android:requestLegacyExternalStorage="true"
+39-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:36:9-52
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:37:9-54
+41        android:screenOrientation="portrait"
+41-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:38:9-45
+42        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+42-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:39:9-65
+43        <activity
+43-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:41:9-43:39
+44            android:name="com.example.forhue_app.Camera2"
+44-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:42:13-36
+45            android:exported="true" />
+45-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:43:13-36
+46        <activity
+46-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:44:9-46:39
+47            android:name="com.example.forhue_app.TTS"
+47-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:45:13-32
+48            android:exported="true" />
+48-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:46:13-36
+49        <activity
+49-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:48:9-50:39
+50            android:name="com.example.forhue_app.CropperActivity"
+50-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:49:13-44
+51            android:exported="true" />
+51-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:50:13-36
+52        <activity
+52-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:51:9-53:39
+53            android:name="com.example.forhue_app.brightness"
+53-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:52:13-39
+54            android:exported="true" />
+54-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:53:13-36
+55        <activity
+55-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:54:9-56:39
+56            android:name="com.example.forhue_app.Settings"
+56-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:55:13-37
+57            android:exported="true" />
+57-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:56:13-36
+58        <activity
+58-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:57:9-59:39
+59            android:name="com.example.forhue_app.Home"
+59-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:58:13-33
+60            android:exported="true" />
+60-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:59:13-36
+61        <activity
+61-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:60:9-62:39
+62            android:name="com.example.forhue_app.Home2"
+62-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:61:13-34
+63            android:exported="true" />
+63-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:62:13-36
+64        <activity
+64-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:63:9-65:39
+65            android:name="com.example.forhue_app.Camera_AR"
+65-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:64:13-38
+66            android:exported="true" />
+66-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:65:13-36
+67        <activity
+67-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:66:9-68:39
+68            android:name="com.example.forhue_app.Camera_HI"
+68-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:67:13-38
+69            android:exported="true" />
+69-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:68:13-36
+70        <activity
+70-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:69:9-71:39
+71            android:name="com.example.forhue_app.Camera_PT"
+71-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:70:13-38
+72            android:exported="true" />
+72-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:71:13-36
+73        <activity
+73-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:72:9-74:39
+74            android:name="com.example.forhue_app.Camera_TL"
+74-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:73:13-38
+75            android:exported="true" />
+75-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:74:13-36
+76        <activity
+76-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:75:9-77:39
+77            android:name="com.example.forhue_app.Camera_ZH"
+77-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:76:13-38
+78            android:exported="true" />
+78-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:77:13-36
+79        <activity
+79-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:78:9-80:39
+80            android:name="com.example.forhue_app.Module"
+80-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:79:13-35
+81            android:exported="true" />
+81-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:80:13-36
+82        <activity
+82-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:81:9-83:39
+83            android:name="com.example.forhue_app.Module2"
+83-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:82:13-36
+84            android:exported="true" />
+84-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:83:13-36
+85        <activity
+85-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:84:9-86:39
+86            android:name="com.example.forhue_app.CameraUpload"
+86-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:85:13-41
+87            android:exported="true" />
+87-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:86:13-36
+88        <activity
+88-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:87:9-89:39
+89            android:name="com.example.forhue_app.language"
+89-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:88:13-37
+90            android:exported="true" />
+90-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:89:13-36
+91        <activity
+91-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:90:9-92:39
+92            android:name="com.example.forhue_app.language_settings"
+92-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:91:13-46
+93            android:exported="true" />
+93-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:92:13-36
+94        <activity
+94-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:93:9-101:20
+95            android:name="com.example.forhue_app.MainActivity"
+95-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:94:13-41
+96            android:exported="true" >
+96-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:95:13-36
+97            <intent-filter>
+97-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:96:13-100:29
+98                <action android:name="android.intent.action.MAIN" />
+98-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:97:17-69
+98-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:97:25-66
+99
+100                <category android:name="android.intent.category.LAUNCHER" />
+100-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:99:17-77
+100-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:99:27-74
+101            </intent-filter>
+102        </activity>
+103        <activity
+103-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:102:9-105:56
+104            android:name="com.yalantis.ucrop.UCropActivity"
+104-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:102:19-66
+105            android:screenOrientation="portrait"
+105-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:103:13-49
+106            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+106-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:104:13-69
+107
+108        <provider
+108-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:106:9-114:20
+109            android:name="androidx.core.content.FileProvider"
+109-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:107:13-62
+110            android:authorities="com.example.forhue_app"
+110-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:108:13-57
+111            android:exported="false"
+111-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:109:13-37
+112            android:grantUriPermissions="true" >
+112-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:110:13-47
+113            <meta-data
+113-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:111:13-113:54
+114                android:name="android.support.FILE_PROVIDER_PATHS"
+114-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:112:17-67
+115                android:resource="@xml/file_paths" />
+115-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:113:17-51
+116        </provider>
+117
+118        <meta-data
+118-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:115:9-117:57
+119            android:name="preloaded_fonts"
+119-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:116:13-43
+120            android:resource="@array/preloaded_fonts" />
+120-->D:\ForHuefirst\app\src\main\AndroidManifest.xml:117:13-54
+121
+122        <provider
+122-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Huawei\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+123            android:name="androidx.startup.InitializationProvider"
+123-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Huawei\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+124            android:authorities="com.example.forhue_app.androidx-startup"
+124-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Huawei\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+125            android:exported="false" >
+125-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Huawei\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+126            <meta-data
+126-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Huawei\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+127                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+127-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Huawei\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+128                android:value="androidx.startup" />
+128-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Huawei\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+129            <meta-data
+129-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Huawei\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+130                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+130-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Huawei\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+131                android:value="androidx.startup" />
+131-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Huawei\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+132        </provider>
+133    </application>
+134
+135</manifest>
