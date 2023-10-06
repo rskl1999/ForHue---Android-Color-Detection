@@ -1,0 +1,170 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 21 min SDK version: x86",
+    "file_": "E:\\graylaptop\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1757089779
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON E:\\graylaptop\\ForHuefirst\\OpenCV\\.cxx\\Debug\\1n22662i\\x86\\android_gradle_build.json due to:",
+    "file_": "E:\\graylaptop\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -641249837
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json E:\\graylaptop\\ForHuefirst\\OpenCV\\.cxx\\Debug\\1n22662i\\x86\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "E:\\graylaptop\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -736569133
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file E:\\graylaptop\\ForHuefirst\\OpenCV\\.cxx\\Debug\\1n22662i\\x86\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "E:\\graylaptop\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1742508561
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "E:\\graylaptop\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -76747889
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027E:\\graylaptop\\ForHuefirst\\OpenCV\\.cxx\\Debug\\1n22662i\\x86\u0027",
+    "file_": "E:\\graylaptop\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 796235779
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake @echo off\n\"D:\\\\New Folder\\\\cmake\\\\3.18.1\\\\bin\\\\cmake.exe\" ^\n  \"-HE:\\\\graylaptop\\\\ForHuefirst\\\\OpenCV\\\\libcxx_helper\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d21\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-21\" ^\n  \"-DANDROID_ABI\u003dx86\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003dx86\" ^\n  \"-DANDROID_NDK\u003dD:\\\\New Folder\\\\ndk\\\\23.1.7779620\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dD:\\\\New Folder\\\\ndk\\\\23.1.7779620\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dD:\\\\New Folder\\\\ndk\\\\23.1.7779620\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dD:\\\\New Folder\\\\cmake\\\\3.18.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\\\graylaptop\\\\ForHuefirst\\\\OpenCV\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\1n22662i\\\\obj\\\\x86\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\\\graylaptop\\\\ForHuefirst\\\\OpenCV\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\1n22662i\\\\obj\\\\x86\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dDebug\" ^\n  \"-BE:\\\\graylaptop\\\\ForHuefirst\\\\OpenCV\\\\.cxx\\\\Debug\\\\1n22662i\\\\x86\" ^\n  -GNinja ^\n  \"-DANDROID_STL\u003dc++_shared\"\n",
+    "file_": "E:\\graylaptop\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 656712787
+  },
+  {
+    "level_": 0,
+    "message_": "@echo off\n\"D:\\\\New Folder\\\\cmake\\\\3.18.1\\\\bin\\\\cmake.exe\" ^\n  \"-HE:\\\\graylaptop\\\\ForHuefirst\\\\OpenCV\\\\libcxx_helper\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d21\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-21\" ^\n  \"-DANDROID_ABI\u003dx86\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003dx86\" ^\n  \"-DANDROID_NDK\u003dD:\\\\New Folder\\\\ndk\\\\23.1.7779620\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dD:\\\\New Folder\\\\ndk\\\\23.1.7779620\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dD:\\\\New Folder\\\\ndk\\\\23.1.7779620\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dD:\\\\New Folder\\\\cmake\\\\3.18.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\\\graylaptop\\\\ForHuefirst\\\\OpenCV\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\1n22662i\\\\obj\\\\x86\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\\\graylaptop\\\\ForHuefirst\\\\OpenCV\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\1n22662i\\\\obj\\\\x86\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dDebug\" ^\n  \"-BE:\\\\graylaptop\\\\ForHuefirst\\\\OpenCV\\\\.cxx\\\\Debug\\\\1n22662i\\\\x86\" ^\n  -GNinja ^\n  \"-DANDROID_STL\u003dc++_shared\"\n",
+    "file_": "E:\\graylaptop\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1404120274
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of E:\\graylaptop\\ForHuefirst\\OpenCV\\.cxx\\Debug\\1n22662i\\x86\\compile_commands.json.bin normally",
+    "file_": "E:\\graylaptop\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -839351687
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "E:\\graylaptop\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -389094140
+  },
+  {
+    "level_": 0,
+    "message_": "write command file E:\\graylaptop\\ForHuefirst\\OpenCV\\.cxx\\Debug\\1n22662i\\x86\\metadata_generation_command.txt",
+    "file_": "E:\\graylaptop\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1079363741
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "E:\\graylaptop\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1548978944
+  }
+]

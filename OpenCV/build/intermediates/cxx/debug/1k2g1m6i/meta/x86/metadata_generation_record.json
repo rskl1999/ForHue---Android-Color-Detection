@@ -1,0 +1,170 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 21 min SDK version: x86",
+    "file_": "E:\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1952658026
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON E:\\ForHuefirst\\OpenCV\\.cxx\\Debug\\1k2g1m6i\\x86\\android_gradle_build.json due to:",
+    "file_": "E:\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1299737037
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json E:\\ForHuefirst\\OpenCV\\.cxx\\Debug\\1k2g1m6i\\x86\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "E:\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1599695449
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file E:\\ForHuefirst\\OpenCV\\.cxx\\Debug\\1k2g1m6i\\x86\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "E:\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -331390779
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "E:\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 508471602
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027E:\\ForHuefirst\\OpenCV\\.cxx\\Debug\\1k2g1m6i\\x86\u0027",
+    "file_": "E:\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1694912069
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake Executable : C:\\Users\\Teacher\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe\narguments : \n-HE:\\ForHuefirst\\OpenCV\\libcxx_helper\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d21\n-DANDROID_PLATFORM\u003dandroid-21\n-DANDROID_ABI\u003dx86\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DANDROID_NDK\u003dC:\\Users\\Teacher\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\Teacher\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\Teacher\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\Teacher\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\ForHuefirst\\OpenCV\\build\\intermediates\\cxx\\Debug\\1k2g1m6i\\obj\\x86\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\ForHuefirst\\OpenCV\\build\\intermediates\\cxx\\Debug\\1k2g1m6i\\obj\\x86\n-DCMAKE_BUILD_TYPE\u003dDebug\n-BE:\\ForHuefirst\\OpenCV\\.cxx\\Debug\\1k2g1m6i\\x86\n-GNinja\n-DANDROID_STL\u003dc++_shared\njvmArgs : \n\n",
+    "file_": "E:\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1568159270
+  },
+  {
+    "level_": 0,
+    "message_": "Executable : C:\\Users\\Teacher\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\cmake.exe\narguments : \n-HE:\\ForHuefirst\\OpenCV\\libcxx_helper\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d21\n-DANDROID_PLATFORM\u003dandroid-21\n-DANDROID_ABI\u003dx86\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DANDROID_NDK\u003dC:\\Users\\Teacher\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_ANDROID_NDK\u003dC:\\Users\\Teacher\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\n-DCMAKE_TOOLCHAIN_FILE\u003dC:\\Users\\Teacher\\AppData\\Local\\Android\\Sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dC:\\Users\\Teacher\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\ForHuefirst\\OpenCV\\build\\intermediates\\cxx\\Debug\\1k2g1m6i\\obj\\x86\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\ForHuefirst\\OpenCV\\build\\intermediates\\cxx\\Debug\\1k2g1m6i\\obj\\x86\n-DCMAKE_BUILD_TYPE\u003dDebug\n-BE:\\ForHuefirst\\OpenCV\\.cxx\\Debug\\1k2g1m6i\\x86\n-GNinja\n-DANDROID_STL\u003dc++_shared\njvmArgs : \n\n",
+    "file_": "E:\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 143815449
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of E:\\ForHuefirst\\OpenCV\\.cxx\\Debug\\1k2g1m6i\\x86\\compile_commands.json.bin normally",
+    "file_": "E:\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 132744657
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "E:\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 196125351
+  },
+  {
+    "level_": 0,
+    "message_": "write command file E:\\ForHuefirst\\OpenCV\\.cxx\\Debug\\1k2g1m6i\\x86\\metadata_generation_command.txt",
+    "file_": "E:\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1465381633
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "E:\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2134198435
+  }
+]
