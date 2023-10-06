@@ -1,0 +1,3 @@
+C:/Users/Teacher/AndroidStudioProjects/ForHuefirst/OpenCV/.cxx/RelWithDebInfo/1j3d3u5a/x86/CMakeFiles/opencv_jni_shared.dir
+C:/Users/Teacher/AndroidStudioProjects/ForHuefirst/OpenCV/.cxx/RelWithDebInfo/1j3d3u5a/x86/CMakeFiles/edit_cache.dir
+C:/Users/Teacher/AndroidStudioProjects/ForHuefirst/OpenCV/.cxx/RelWithDebInfo/1j3d3u5a/x86/CMakeFiles/rebuild_cache.dir
