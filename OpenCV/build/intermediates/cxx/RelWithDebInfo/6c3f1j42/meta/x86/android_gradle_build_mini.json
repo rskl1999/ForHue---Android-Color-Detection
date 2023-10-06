@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\ForHuefirst\\OpenCV\\libcxx_helper\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Kiel\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\ForHuefirst\\OpenCV\\.cxx\\RelWithDebInfo\\6c3f1j42\\x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Kiel\\AppData\\Local\\Android\\Sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\ForHuefirst\\OpenCV\\.cxx\\RelWithDebInfo\\6c3f1j42\\x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "opencv_jni_shared::@6890427a1f51a3e7e1df": {
+      "artifactName": "opencv_jni_shared",
+      "abi": "x86",
+      "output": "C:\\ForHuefirst\\OpenCV\\.cxx\\RelWithDebInfo\\6c3f1j42\\x86\\libopencv_jni_shared.a",
+      "runtimeFiles": []
+    }
+  }
+}
