@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools='http://schemas.android.com/tools'
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FFFFFF"
+    android:backgroundTintMode="multiply"
+    android:foregroundTint="#00BCD4"
+
+    tools:context=".language">
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="43dp"
+        android:background="@drawable/arrow_orange"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"
+        app:srcCompat="@drawable/arrow_orange"
+        tools:ignore="SpeakableTextPresentCheck, ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="279dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/choose_lang"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="300dp"
+        android:layout_height="57dp"
+        android:layout_margin="10dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="71dp"
+
+        android:layout_marginBottom="309dp"
+        android:background="@drawable/group_9"
+
+        android:dropDownWidth="match_parent"
+        android:dropDownSelector="@drawable/drop"
+        android:ellipsize="none"
+        android:spinnerMode="dropdown"
+        android:textColor="#D2D6DF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:layout_constraintVertical_bias="0.060000002"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

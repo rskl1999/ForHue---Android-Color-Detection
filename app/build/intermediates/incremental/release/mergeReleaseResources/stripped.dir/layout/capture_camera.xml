@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <FrameLayout
+    android:id="@+id/frameLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools='http://schemas.android.com/tools'
+    tools:context=".MainActivity"
+     android:layout_height="match_parent" android:layout_width="match_parent"
+    android:background="@drawable/gradient_background">
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="554dp"
+            android:src="@drawable/white_menu"
+            opencv:layout_constraintEnd_toEndOf="parent"
+            opencv:layout_constraintHorizontal_bias="0.0"
+            opencv:layout_constraintStart_toStartOf="parent"
+            opencv:layout_constraintTop_toBottomOf="@+id/imageButton5"
+            tools:ignore="ImageContrastCheck,ImageContrastCheck, ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/home_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="302dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/homec1"
+            opencv:layout_constraintBottom_toBottomOf="parent"
+            opencv:layout_constraintStart_toStartOf="parent"
+            tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck,ImageContrastCheck, ContentDescription" />
+
+        <ImageButton
+            android:id="@+id/gallery_butt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="62dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/imagec1"
+            android:src="@drawable/imagec1"
+            opencv:layout_constraintBottom_toBottomOf="parent"
+            opencv:layout_constraintStart_toStartOf="parent"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,ImageContrastCheck,ImageContrastCheck, ContentDescription"
+            />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/save"
+            android:textColor="#2C4B94"
+            android:textSize="28sp"
+            opencv:layout_constraintBottom_toBottomOf="parent"
+            opencv:layout_constraintEnd_toEndOf="parent"
+            opencv:layout_constraintHorizontal_bias="0.498"
+            opencv:layout_constraintStart_toStartOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="68dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/back_white"
+            opencv:layout_constraintStart_toStartOf="parent"
+            opencv:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,ImageContrastCheck,ImageContrastCheck, ContentDescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
