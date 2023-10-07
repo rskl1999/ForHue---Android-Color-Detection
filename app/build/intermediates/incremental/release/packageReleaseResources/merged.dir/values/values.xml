@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>
+            MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=
+        </item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>
+            MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK
+        </item>
+    </string-array>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alata</item>
+        <item>@font/archivo</item>
+        <item>@font/baloo_bhaina_2</item>
+        <item>@font/open_sans</item>
+        <item>@font/open_sans_semibold</item>
+        <item>@font/poppins_medium</item>
+        <item>@font/rubik</item>
+        <item>@font/spartan_medium</item>
+        <item>@font/tomorrow_medium</item>
+        <item>@font/unna</item>
+        <item>@font/viga</item>
+    </array>
+    <color name="black">#FF000000</color>
+    <color name="gray_400">#FFBDBDBD</color>
+    <color name="gray_600">#FF757575</color>
+    <color name="light_blue_400">#FF29B6F6</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="appbar_padding">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <item name="drawerLayout" type="id"/>
+    <item name="heightdim" type="id"/>
+    <item name="lang_upl" type="id"/>
+    <item name="navView" type="id"/>
+    <item name="textView19" type="id"/>
+    <item name="textView23" type="id"/>
+    <item name="textView3" type="id"/>
+    <item name="widthdim" type="id"/>
+    <string name="app_name" translatable="false">ForHue - App</string>
+    <string name="ar_button" translatable="false">Arabic(اللغة العربية)</string>
+    <string name="ar_radio" translatable="false">Arabic(اللغة العربية)</string>
+    <string name="brightness">Screen Brightness</string>
+    <string name="c_o_l_o_r">C O L O R:</string>
+    <string name="cam_home">CAMERA</string>
+    <string name="ch_button" translatable="false">Chinese (普通话)</string>
+    <string name="ch_radio" translatable="false">Chinese (普通话)</string>
+    <string name="choose_lang">Choose Default Language:</string>
+    <string name="cname"> C O L O R   N A M E </string>
+    <string name="confirm_ch" translatable="false">Refresh</string>
+    <string name="def_lang">Change Language</string>
+    <string name="en_button" translatable="false">English</string>
+    <string name="en_radio" translatable="false">English</string>
+    <string name="font_size">Font Size</string>
+    <string name="hi_button" translatable="false">Hindi (हिंदुई)</string>
+    <string name="hi_radio" translatable="false">Hindi (हिंदुई)</string>
+    <string name="insman" ns1:ignore="MissingTranslation">Instruction Manual</string>
+    <string name="insman2" ns1:ignore="MissingTranslation">Instruction Manual</string>
+    <string name="large">lg</string>
+    <string name="man_c1" ns1:ignore="MissingTranslation">CAMERA: For better accuracy of color detection and ratio capturing in your device, set dimension frame what\'s more appropriate to you. (RECOMMENDED: 576x1280)</string>
+    <string name="man_c10" ns1:ignore="MissingTranslation">3. After permitting the application to use the camera, the user can now access the device\'s back cam and front cam. </string>
+    <string name="man_c11" ns1:ignore="MissingTranslation">If the camera is inaccessible or no prompt, go to the phone settings > app permission. Allow the application to access the camera</string>
+    <string name="man_c12" ns1:ignore="MissingTranslation">A pause and play button is located in the lower left side of the screen.</string>
+    <string name="man_c13" ns1:ignore="MissingTranslation">1. The pause button stops/pauses the framing to accurately capture the color of the specific object.</string>
+    <string name="man_c14" ns1:ignore="MissingTranslation">2. When the play button is pressed, this resumes framing.</string>
+    <string name="man_c15" ns1:ignore="MissingTranslation">1. Under the globe icon is another icon that shows the available dimensions options to choose from. The current selected dimension will display a text too just at the  bottom of it.</string>
+    <string name="man_c16" ns1:ignore="MissingTranslation">2. Upon selecting the dimension, it will change the frame size. This frame size will be displayed on width and height text. It can also determine the accuracy of color detection and the portrait layout of a captured photo.</string>
+    <string name="man_c17" ns1:ignore="MissingTranslation">1. A globe icon is located on the lower right side, on the top of the frame dimension icon. This shows the available language options for the color detection and text-to-speech feature.</string>
+    <string name="man_c18" ns1:ignore="MissingTranslation">2. Upon selecting a language, it will automatically switch to another camera with a different language (another option list aside from the home page camera options).</string>
+    <string name="man_c19" ns1:ignore="MissingTranslation">1. The capture button will change color upon clicking. It will then automatically save on the file folder and be reflected on the gallery.</string>
+    <string name="man_c2" ns1:ignore="MissingTranslation">UPLOAD: For better accuracy of color detection in your device, crop the portion only to be detected and if possible, apply high contrast and saturation.</string>
+    <string name="man_c20" ns1:ignore="MissingTranslation">2. The location of the file folder is DCIM/ForHue.</string>
+    <string name="man_c21" ns1:ignore="MissingTranslation">1. Clicking the flip cam button found at the left side of the home button will make the camera change from back to front and vice versa.</string>
+    <string name="man_c22" ns1:ignore="MissingTranslation">2.The home button proceeds to the home page and exits from all the cameras with just one click.</string>
+    <string name="man_c23" ns1:ignore="MissingTranslation">1. To upload an image, click the image icon.</string>
+    <string name="man_c24" ns1:ignore="MissingTranslation">2. After clicking the icon, the application provides options for where to find the image to upload.</string>
+    <string name="man_c25" ns1:ignore="MissingTranslation">3. The user can now choose an image to upload, and the application will detect the color of the specific object.</string>
+    <string name="man_c26" ns1:ignore="MissingTranslation">When an image is uploaded, a crop feature is available. This allows the user to select a specific object in the image to focus on in identifying the selected object’s color.</string>
+    <string name="man_c27" ns1:ignore="MissingTranslation">1. The \‘ídentify color\’ button has multiple options for color naming. Once clicked, TTS options will automatically open.</string>
+    <string name="man_c28" ns1:ignore="MissingTranslation">2. TTS Options can be clicked according to the selected language. It can also be closed if it’s not needed at the moment (by clicking the tts icon).</string>
+    <string name="man_c29" ns1:ignore="MissingTranslation">1. Located on the upper part of the screen is the screen brightness seekbar; the orange color indicates the progress of the seekbar.</string>
+    <string name="man_c3" ns1:ignore="MissingTranslation">1. Click the dropdown menu to display all languages.Then select the preferred language.</string>
+    <string name="man_c30" ns1:ignore="MissingTranslation">2. Swipe the seekbar to adjust to desired brightness. </string>
+    <string name="man_c31" ns1:ignore="MissingTranslation">3. Swipe to the right to intensify brightness and swipe to the left to lessen the brightness.</string>
+    <string name="man_c32" ns1:ignore="MissingTranslation">1. Located on the lower part of the screen is the Language drop-down menu; click the arrow to display the language selections.</string>
+    <string name="man_c33" ns1:ignore="MissingTranslation">2. Select your preferred language.</string>
+    <string name="man_c34" ns1:ignore="MissingTranslation">3. Click the refresh button to display the updated language.</string>
+    <string name="man_c4" ns1:ignore="MissingTranslation">2. After the selection of language, an arrow button will be seen to proceed to the succeeding page.</string>
+    <string name="man_c5" ns1:ignore="MissingTranslation">1. Seen on this page are the camera, upload, and settings drawer icons. These icons navigate to their respective pages.</string>
+    <string name="man_c6" ns1:ignore="MissingTranslation">2. Seen on the bottom left side is a help icon that directs to the user manual page of the application (it can also be found when the Settings drawer is open. </string>
+    <string name="man_c8" ns1:ignore="MissingTranslation">1. Upon clicking the camera button from the home page, a list of languages will appear for color detection naming.</string>
+    <string name="man_c9" ns1:ignore="MissingTranslation">2. Once the camera is open, a permission message will pop up, saying, “Allow ForHue- App to take pictures and record videos?” and click “Allow” to permit the application.</string>
+    <string name="man_t1" ns1:ignore="MissingTranslation">Color Naming</string>
+    <string name="man_t10" ns1:ignore="MissingTranslation">Alteration of camera back/front and exit to home</string>
+    <string name="man_t11" ns1:ignore="MissingTranslation">Uploading of Image</string>
+    <string name="man_t12" ns1:ignore="MissingTranslation">Cropping of the uploaded image</string>
+    <string name="man_t13" ns1:ignore="MissingTranslation">Color Naming Options with TTS in UPLOAD</string>
+    <string name="man_t14" ns1:ignore="MissingTranslation">Screen Brightness Adjustment</string>
+    <string name="man_t15" ns1:ignore="MissingTranslation">Alteration of Language</string>
+    <string name="man_t2" ns1:ignore="MissingTranslation">Setting up the application</string>
+    <string name="man_t3" ns1:ignore="MissingTranslation">ForHue Menu Page</string>
+    <string name="man_t4" ns1:ignore="MissingTranslation">Opening the Camera</string>
+    <string name="man_t5" ns1:ignore="MissingTranslation">Camera access</string>
+    <string name="man_t6" ns1:ignore="MissingTranslation">Controlling camera framing</string>
+    <string name="man_t7" ns1:ignore="MissingTranslation">Alteration of frame dimension size</string>
+    <string name="man_t8" ns1:ignore="MissingTranslation">Alteration of color detection language with TTS</string>
+    <string name="man_t9" ns1:ignore="MissingTranslation">Capturing Photo and Saving it in folder</string>
+    <string name="medium">md</string>
+    <string name="midnight_blue">I\'m the Color</string>
+    <string name="pt_button" translatable="false">Portuguese (português)</string>
+    <string name="pt_radio" translatable="false">Portuguese (português)</string>
+    <string name="save">SAVE</string>
+    <string name="settings">Settings</string>
+    <string name="settings_home">SETTINGS</string>
+    <string name="small">sm</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="tl_button" translatable="false">Tagalog</string>
+    <string name="tl_radio" translatable="false">Tagalog</string>
+    <string name="upload_home">UPLOAD</string>
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="FontSizeLarge">
+        <item name="android:textSize">34sp</item>
+    </style>
+    <style name="FontSizeMedium">
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="FontSizeSmall">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="Theme.ForHueApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+    <style name="Widget.Theme.ForHueApp.MyView" parent="">
+        <item name="android:background">@color/gray_400</item>
+        <item name="exampleColor">@color/light_blue_400</item>
+    </style>
+    <declare-styleable name="MyView">
+        <attr format="string" name="exampleString"/>
+        <attr format="dimension" name="exampleDimension"/>
+        <attr format="color" name="exampleColor"/>
+        <attr format="color|reference" name="exampleDrawable"/>
+    </declare-styleable>
+</resources>

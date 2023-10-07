@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools='http://schemas.android.com/tools'
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Camera2">
+
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/opencv_surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        opencv:layout_constraintStart_toStartOf="parent"
+        opencv:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/imageView7"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/white_menu"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:src="@drawable/curve_white"
+        opencv:layout_constraintBottom_toBottomOf="parent"
+        opencv:layout_constraintEnd_toEndOf="parent"
+        opencv:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/fliprotate"
+            android:layout_width="23dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="36dp"
+            android:background="@drawable/button_rotate"
+            opencv:layout_constraintEnd_toStartOf="@+id/home_button"
+            opencv:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,ImageContrastCheck, ContentDescription,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/home_button"
+            android:layout_width="25dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="35dp"
+            android:background="@drawable/button_home"
+            opencv:layout_constraintEnd_toEndOf="parent"
+            opencv:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,ImageContrastCheck, ContentDescription,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/pauseButt"
+            android:layout_width="26dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button_pause"
+            android:contentDescription="TODO"
+            opencv:layout_constraintStart_toStartOf="parent"
+            opencv:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck, ContentDescription,TouchTargetSizeCheck" />
+
+        <ImageButton
+            android:id="@+id/resumeButt"
+            android:layout_width="31dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_resume"
+            opencv:layout_constraintStart_toEndOf="@+id/pauseButt"
+            opencv:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/topView"
+        android:layout_width="0dp"
+        android:layout_height="85dp"
+        android:layout_gravity="top"
+        android:background="@drawable/topbg"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        opencv:layout_constraintEnd_toEndOf="parent"
+        opencv:layout_constraintHorizontal_bias="0.0"
+        opencv:layout_constraintStart_toStartOf="parent"
+        opencv:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/colorID"
+            android:layout_width="116dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/midnight_blue"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:visibility="visible"
+            opencv:layout_constraintStart_toEndOf="@+id/imageButton3"
+            opencv:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="26dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="28dp"
+            android:background="@drawable/button_tts"
+            opencv:layout_constraintEnd_toEndOf="parent"
+            opencv:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ImageContrastCheck, ContentDescription,SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="130dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/cname"
+            android:textColor="#A8A8A8"
+            android:textSize="14sp"
+            opencv:layout_constraintStart_toEndOf="@+id/imageButton3"
+            opencv:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/coloridlogo"
+            opencv:layout_constraintStart_toStartOf="parent"
+            opencv:layout_constraintTop_toTopOf="parent"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageButton
+        android:id="@+id/capture_button"
+        android:layout_width="89dp"
+        android:layout_height="91dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/button_capture"
+
+        android:backgroundTintMode="multiply"
+        android:gravity="center_horizontal"
+        android:src="@drawable/button_capture"
+        opencv:layout_constraintBottom_toBottomOf="parent"
+        opencv:layout_constraintEnd_toEndOf="parent"
+        opencv:layout_constraintHorizontal_bias="0.503"
+        opencv:layout_constraintStart_toStartOf="parent"
+        tools:ignore="SpeakableTextPresentCheck, ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/reso_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/button_reso"
+        opencv:layout_constraintBottom_toTopOf="@+id/textView3"
+        opencv:layout_constraintEnd_toEndOf="@+id/opencv_surface_view"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ImageButton
+        android:id="@+id/langicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/button_lg_frame"
+        opencv:layout_constraintBottom_toTopOf="@+id/reso_button"
+        opencv:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <ListView
+        android:id="@+id/set_reso"
+        android:layout_width="230dp"
+        android:layout_height="294dp"
+        android:background="@drawable/cmbuttonlightcornerbig"
+        android:divider="@null"
+        android:listSelector="#FFD465"
+        android:visibility="invisible"
+        opencv:layout_constraintBottom_toTopOf="@+id/reso_button"
+        opencv:layout_constraintEnd_toEndOf="@+id/reso_button"
+        tools:ignore="MissingConstraints">
+
+    </ListView>
+
+    <ListView
+        android:id="@+id/set_lang"
+        android:layout_width="192dp"
+        android:layout_height="179dp"
+        android:background="@drawable/cmbuttonlightcorner"
+        android:divider="@null"
+        android:listSelector="#FFD465"
+        android:visibility="invisible"
+        opencv:layout_constraintBottom_toTopOf="@+id/langicon"
+        opencv:layout_constraintEnd_toEndOf="@+id/langicon"
+        tools:ignore="MissingConstraints">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Frame Dimensions"
+        android:textColor="#FF9800"
+        opencv:layout_constraintBottom_toTopOf="@+id/capture_button"
+        opencv:layout_constraintStart_toEndOf="@+id/capture_button" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Width:"
+        android:textColor="#FF9800"
+        opencv:layout_constraintStart_toEndOf="@+id/capture_button"
+        opencv:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Height:"
+        android:textColor="#FF9800"
+        opencv:layout_constraintStart_toEndOf="@+id/capture_button"
+        opencv:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/widthdim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="normal"
+        android:textColor="#C6C5C5"
+        opencv:layout_constraintStart_toEndOf="@+id/textView19"
+        opencv:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/heightdim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="2dp"
+        android:text="normal"
+        android:textColor="#C6C5C5"
+        opencv:layout_constraintStart_toEndOf="@+id/textView23"
+        opencv:layout_constraintTop_toBottomOf="@+id/widthdim" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
