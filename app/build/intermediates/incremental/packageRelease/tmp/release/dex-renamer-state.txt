@@ -1,0 +1,7 @@
+#Thu Oct 05 21:42:38 SGT 2023
+base.1=D\:\\ForHuefirst\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
+path.1=classes2.dex
+base.0=D\:\\ForHuefirst\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
