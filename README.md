@@ -9,7 +9,7 @@
 
 _:pushpin: In case the files won't run on Android Studio:_
 - Re-download the OpenCV from the official site, as this Github has limited upload size.
-- Download the project from this [link :file_folder:](https://drive.google.com/file/d/1f2DJxkod-ZIQ9bh5R_NlbtUzAqkCv1Nx/view?usp=sharing).
+- Download/request the project from this [link :file_folder:](https://drive.google.com/file/d/1f2DJxkod-ZIQ9bh5R_NlbtUzAqkCv1Nx/view?usp=sharing).
 
 **AUTHORS:**
 - Banez, Crystal Mae M.
