@@ -1,5 +1,6 @@
 # ForHue---Android-Color-Detection
 FORHUE: AN ASSISTIVE MOBILE APPLICATION FOR COLOR-BLIND INDIVIDUALS USING KNN ALGORITHM
+
 A Thesis Presented to the Undergraduate Program College of Engineering - Pamantasan ng Lungsod ng Maynila
 ![forhue_logo](https://github.com/rskl1999/ForHue---Android-Color-Detection/assets/127722354/127752c2-288c-4f55-a475-369442724d02)
 
