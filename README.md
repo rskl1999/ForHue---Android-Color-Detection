@@ -5,7 +5,7 @@
 
 **[IMRAD here :page_facing_up: ](https://docs.google.com/document/d/1vqARdI6yBQZBATjex6GcxX5BubQZ3lc1/edit?usp=sharing&ouid=106402784497293863565&rtpof=true&sd=true)**
 |
-[Download the apk file here:iphone::iphone:](https://drive.google.com/drive/folders/1gvPbd9orOIMaHMvZNGTHo2v3TR0eY5de?usp=sharing) (Use the signed or unsigned version of the app, whichever is running)
+[Download the apk file here](https://drive.google.com/drive/folders/1gvPbd9orOIMaHMvZNGTHo2v3TR0eY5de?usp=sharing) (Use the signed or unsigned version of the app, whichever is running)
 
 _:pushpin: In case the files won't run on Android Studio:_
 - Re-download the OpenCV from the official site, as this Github has limited upload size.
